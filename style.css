@@ -1,0 +1,93 @@
+.main-nav {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 42px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+.nav-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-section * {
+    margin: 0 10px;
+}
+
+.main-article {
+    margin: 100px 10%;
+}
+
+.main-article .headline {
+    margin: 35px 20%;
+    font-size: 2em;
+}
+
+.main-article img {
+    width: 100%;
+}
+
+.article-body {
+    font-size: 20px;
+    margin: 50px 18%;
+    line-height: 28px;
+    color: #333;
+    min-width: 600px;
+}
+
+.main-article .caption {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    color: #444;
+    margin-right: 200px;
+}
+
+.main-article small {
+    margin-top: 0;
+    font-size: 14px;
+    color: #666;
+    display: block;
+}
+
+.inflation-section {
+    font-size: 14px;
+    margin: 50px 0;
+}
+
+.infographic-subsection {
+    min-width: 700px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-image: url(https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-720.png);
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    display: grid;
+}
+
+.inflation-section h3 {
+    line-height: 10px;
+}
+
+.inflation-section p {
+    line-height: 18px;
+    color: #444;
+}
+
+.info-block {
+    line-height: 16px;
+    margin-top: 120px;
+    text-align: justify;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+iframe {
+    margin: 30px auto;
+}
